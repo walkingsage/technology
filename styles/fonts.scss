@@ -1,0 +1,12 @@
+
+@mixin bold {
+    font-weight: 800;
+};
+
+@mixin regular {
+    font-weight: 400;
+};
+
+@mixin arial {
+    font-family: 'Work Sans', sans-serif;
+};
