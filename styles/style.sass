@@ -4,4 +4,108 @@
     padding: 0
     margin: 0
 
+.container
+    max-width: 1190px
+    padding: 0 10px 0 10px
+    margin: 0 auto
 
+
+header
+    width: 100%
+    height: 150px
+    padding: 10px 0 10px 0
+
+    .header__content
+        width: 100%
+        display: grid
+        grid-template-rows: auto
+        grid-template-columns: repeat(3,360px/1170px*100%)
+        grid-column-gap: 45px/1170px*100%
+
+        .header__logo
+            display: grid
+            grid-template-columns: 30% 70%
+
+            img
+                max-width: 100%
+                max-height: 130px
+                justify-self: center
+                align-self: center
+
+            .header__logo__title
+                display: grid
+                grid-template-columns: auto
+                grid-template-rows: auto
+
+                .pk
+                    +oran
+                    +regular
+                    font-size: 20px
+                    align-self: center
+                    text-align: center
+
+                    span
+                        font-size: 28px
+        
+        .header__contact__info
+            display: grid
+            grid-template-columns: auto
+            grid-template-rows: 30px 80px 20px
+
+            
+            .header__contact__app__image
+                display: grid
+                grid-template-columns: 50% 50%
+                grid-template-rows: auto
+
+                img
+                    max-width: 20px
+                    justify-self: center
+            
+            .header__contact__phones
+                display: grid
+                grid-template-columns: auto
+                grid-template-rows: 50% 50%
+
+                a
+                    +arial
+                    +bold
+                    font-size: 25px
+                    color: #000000
+                    text-align: center
+                    text-decoration: none
+            .dostavka
+                text-align: center
+                font-size: 20px
+                color: #0F6FA3
+                +arial
+                +bold
+                a
+                    text-decoration: none
+                    color: #0F6FA3
+        .header__aboutus
+            display: grid
+            grid-template-columns: auto
+            grid-template-rows: repeat(2,40px) 50px
+
+            .header__obl
+                +arial
+                +bold
+                font-size: 20px
+                align-self: end
+                text-align: right
+            .header__city
+                +arial
+                +bold
+                font-size: 20px 
+                color: #2F2E2E
+                align-self: end
+                text-align: right
+                
+            a
+                +arial
+                +bold
+                font-size: 18px
+                color: #474747
+                align-self: end
+                text-align: right

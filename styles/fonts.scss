@@ -1,6 +1,6 @@
 
 @mixin bold {
-    font-weight: 800;
+    font-weight: 700;
 };
 
 @mixin regular {
@@ -8,5 +8,9 @@
 };
 
 @mixin arial {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
+};
+
+@mixin oran {
+    font-family: 'Oranienbaum', serif;
 };

@@ -1,3 +1,96 @@
+* {
+  padding: 0;
+  margin: 0; }
 
+.container {
+  max-width: 1190px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 150px;
+  padding: 10px 0 10px 0; }
+  header .header__content {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 30.7692307692%);
+    grid-column-gap: 3.8461538462%; }
+    header .header__content .header__logo {
+      display: grid;
+      grid-template-columns: 30% 70%; }
+      header .header__content .header__logo img {
+        max-width: 100%;
+        max-height: 130px;
+        justify-self: center;
+        align-self: center; }
+      header .header__content .header__logo .header__logo__title {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto; }
+        header .header__content .header__logo .header__logo__title .pk {
+          font-family: 'Oranienbaum', serif;
+          font-weight: 400;
+          font-size: 20px;
+          align-self: center;
+          text-align: center; }
+          header .header__content .header__logo .header__logo__title .pk span {
+            font-size: 28px; }
+    header .header__content .header__contact__info {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 30px 80px 20px; }
+      header .header__content .header__contact__info .header__contact__app__image {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto; }
+        header .header__content .header__contact__info .header__contact__app__image img {
+          max-width: 20px;
+          justify-self: center; }
+      header .header__content .header__contact__info .header__contact__phones {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 50% 50%; }
+        header .header__content .header__contact__info .header__contact__phones a {
+          font-family: 'Arial', sans-serif;
+          font-weight: 700;
+          font-size: 25px;
+          color: #000000;
+          text-align: center;
+          text-decoration: none; }
+      header .header__content .header__contact__info .dostavka {
+        text-align: center;
+        font-size: 20px;
+        color: #0F6FA3;
+        font-family: 'Arial', sans-serif;
+        font-weight: 700; }
+        header .header__content .header__contact__info .dostavka a {
+          text-decoration: none;
+          color: #0F6FA3; }
+    header .header__content .header__aboutus {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, 40px) 50px; }
+      header .header__content .header__aboutus .header__obl {
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        align-self: end;
+        text-align: right; }
+      header .header__content .header__aboutus .header__city {
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #2F2E2E;
+        align-self: end;
+        text-align: right; }
+      header .header__content .header__aboutus a {
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #474747;
+        align-self: end;
+        text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
