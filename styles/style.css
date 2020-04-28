@@ -167,4 +167,9 @@ nav {
       nav .topmenu li:hover .sub__menu:hover {
         display: block; }
 
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/); }
+
 /*# sourceMappingURL=style.css.map */
