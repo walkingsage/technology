@@ -131,17 +131,26 @@ nav
 
     ul
         display: grid
-        grid-template-columns: repeat(7,1fr)
+        grid-template-columns: repeat(7,auto)
         grid-template-rows: 50px
         list-style: none
 
         li
             text-align: center
             align-self: center
-            
+            border-left: 1px solid #ffffff
+
             a
+                display: block
                 text-decoration: none
                 color: #ffffff
                 +arial
                 +regular
                 font-size: 12px
+
+        li:first-child
+            border-left: none
+        li:last-child
+            border-right: none
+            
+           

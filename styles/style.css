@@ -111,17 +111,23 @@ nav {
   background-color: #213A54; }
   nav ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, auto);
     grid-template-rows: 50px;
     list-style: none; }
     nav ul li {
       text-align: center;
-      align-self: center; }
+      align-self: center;
+      border-left: 1px solid #ffffff; }
       nav ul li a {
+        display: block;
         text-decoration: none;
         color: #ffffff;
         font-family: 'Arial', sans-serif;
         font-weight: 400;
         font-size: 12px; }
+    nav ul li:first-child {
+      border-left: none; }
+    nav ul li:last-child {
+      border-right: none; }
 
 /*# sourceMappingURL=style.css.map */
