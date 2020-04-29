@@ -211,4 +211,96 @@ main
     background-image: url(../image/bgmain.jpg)
     background-size: cover
     background-attachment: fixed
+
+
+
+footer
+    width: 100%
+    height: 170px
+    padding: 10px 0 10px 0
+    background-color: #ffffff
+
+    .container
+        
+        .footer__content
+            display: grid
+            grid-template-columns: repeat(2,360px/1170px*100%)
+            grid-column-gap: 450px/1170px*100%
+            grid-template-rows: auto
+
+            .footer__info__left
+                display: grid
+                grid-template-columns: 30% 70%
+                grid-template-rows: 100%
+
+                img
+                    max-width: 100%
+                    max-height: 150px
+                    align-self: center
+                    justify-self: center
+                
+                .left__text
+                    display: grid
+                    grid-template-columns: auto
+                    grid-template-rows: 25px 75px
+                    grid-row-gap: 60px
+
+                    .pk
+                        +arial
+                        +regular
+                        font-size: 20px
+                        text-align: left
+                        align-self: center
+
+                    .left__text__bottom
+                        display: grid
+                        grid-template-columns: auto
+                        grid-template-rows: repeat(3,25px)
+
+                        p
+                            +arial
+                            +regular
+                            font-size: 17px
+                            text-align: left
+                            align-self: center
+            
+            .footer__info__right
+                display: grid
+                grid-template-columns: auto
+                grid-template-rows: 50px 45px
+                grid-row-gap: 55px
+
+                .phones
+                    display: grid
+                    grid-template-columns: auto
+                    grid-template-rows: 50% 50%
+
+                    a   
+                        +arial
+                        +bold
+                        font-size: 20px
+                        text-align: right
+                        align-self: center
+                        text-decoration: none
+                        color: #000000
+                .right__geo
+                    display: grid
+                    grid-template-columns: auto
+                    grid-template-rows: repeat(3,15px) 
+
+                    a
+                        +arial
+                        +regular
+                        font-size: 14px
+                        text-align: right
+                        align-self: center
+                        text-decoration: none
+                    p
+                        +arial
+                        +regular
+                        font-size: 14px
+                        text-align: right
+                        align-self: center
+                        
+
            
