@@ -190,44 +190,42 @@ footer {
   background-color: #ffffff; }
   footer .container .footer__content {
     display: grid;
-    grid-template-columns: repeat(2, 30.7692307692%);
-    grid-column-gap: 38.4615384615%;
-    grid-template-rows: auto; }
+    grid-template-columns: repeat(3, 30.7692307692%);
+    grid-column-gap: 3.8461538462%;
+    grid-template-rows: auto;
+    justify-content: center; }
     footer .container .footer__content .footer__info__left {
       display: grid;
-      grid-template-columns: 30% 70%;
-      grid-template-rows: 100%; }
-      footer .container .footer__content .footer__info__left img {
-        max-width: 100%;
-        max-height: 150px;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3, 50px);
+      align-self: center; }
+      footer .container .footer__content .footer__info__left p {
+        font-family: 'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: left;
+        align-self: end; }
+    footer .container .footer__content .footer__logo__center {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 70% 30%; }
+      footer .container .footer__content .footer__logo__center img {
+        max-width: 80px;
+        max-height: 105px;
         align-self: center;
         justify-self: center; }
-      footer .container .footer__content .footer__info__left .left__text {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 25px 75px;
-        grid-row-gap: 60px; }
-        footer .container .footer__content .footer__info__left .left__text .pk {
-          font-family: 'Arial', sans-serif;
-          font-weight: 400;
-          font-size: 20px;
-          text-align: left;
-          align-self: center; }
-        footer .container .footer__content .footer__info__left .left__text .left__text__bottom {
-          display: grid;
-          grid-template-columns: auto;
-          grid-template-rows: repeat(3, 25px); }
-          footer .container .footer__content .footer__info__left .left__text .left__text__bottom p {
-            font-family: 'Arial', sans-serif;
-            font-weight: 400;
-            font-size: 17px;
-            text-align: left;
-            align-self: center; }
+      footer .container .footer__content .footer__logo__center p {
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        align-self: end; }
     footer .container .footer__content .footer__info__right {
       display: grid;
       grid-template-columns: auto;
-      grid-template-rows: 50px 45px;
-      grid-row-gap: 55px; }
+      grid-template-rows: 60px 45px;
+      grid-row-gap: 15px;
+      align-self: center; }
       footer .container .footer__content .footer__info__right .phones {
         display: grid;
         grid-template-columns: auto;
