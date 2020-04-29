@@ -182,6 +182,11 @@ main {
   background-image: url(../image/bgmain.jpg);
   background-size: cover;
   background-attachment: fixed; }
+  main h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center; }
 
 footer {
   width: 100%;
