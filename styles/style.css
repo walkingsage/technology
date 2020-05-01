@@ -114,7 +114,8 @@ nav {
   margin-top: 10px;
   width: 100%;
   height: 50px;
-  background-color: #213A54; }
+  background-color: #213A54;
+  z-index: 100; }
   nav .topmenu {
     display: grid;
     grid-template-columns: repeat(7, auto);
@@ -181,12 +182,26 @@ main {
   height: 100vh;
   background-image: url(../image/bgmain.jpg);
   background-size: cover;
-  background-attachment: fixed; }
-  main h1 {
-    font-family: 'Arial', sans-serif;
-    font-weight: 700;
-    font-size: 23px;
-    text-align: center; }
+  background-attachment: fixed;
+  position: relative; }
+  main .info__pkth {
+    background-color: #0F6FA3;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; }
+    main .info__pkth .main__about__us {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 40px; }
+    main .info__pkth h1 {
+      font-family: 'Arial', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      text-align: center;
+      color: #ffffff; }
 
 footer {
   width: 100%;
