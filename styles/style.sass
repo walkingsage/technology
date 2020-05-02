@@ -3,7 +3,11 @@
 *
     padding: 0
     margin: 0
-    
+
+body
+    min-height: 100%
+    display: grid
+    grid-template-rows: 1fr auto
 
 .container
     max-width: 1190px
@@ -207,35 +211,107 @@ nav
                 display: block
 
 main           
-    width: 100%
-    height: 100vh
     background-image: url(../image/bgmain.jpg)
     background-size: cover
     background-attachment: fixed
-    position: relative
 
     .info__pkth
-        background-color: #0F6FA3
-        opacity: 60%
-        position: absolute
+        background-color: rgba(15, 111, 163, 0.6)
         top: 0
         left: 0 
         width: 100%
-        height: 100vh
+        height: 780px
 
 
         .main__about__us
             display: grid
             grid-template-columns: auto
-            grid-template-rows: 40px 
+            grid-template-rows: 120px 660px
 
+            .about__us__title
+                display: grid
+                grid-template-columns: auto
+                grid-template-rows: 50% 50%
 
-        h1
-            +arial
-            +bold
-            font-size: 25px
-            text-align: center
-            color: #ffffff
+                h1
+                    +arial
+                    +bold
+                    font-size: 24px
+                    color: #ffffff
+                    align-self: center
+                    text-align: center
+
+            .about__us__advantage
+                display: grid
+                grid-template-rows: 270px 390px
+                background-color: rgba(13, 98, 143, 0.8)
+
+                .advantage__text
+                    align-self: center
+                    justify-self: center
+                    max-width: 80%
+
+                    p
+                        +arial
+                        +regular
+                        font-size: 17px
+                        color: #ffffff
+                        text-align: center
+                        line-height: 19px
+                
+                .advantages
+                    display: grid
+                    grid-template-columns: repeat(6,185px)
+                    grid-template-rows: 75%
+                    justify-content: center
+
+                    .advantage__content
+                        display: grid
+                        grid-template-rows: 185px 90px
+                        grid-row-gap: 20px
+                        justify-items: center
+                        align-items: center
+                        position: relative
+                        background-color: #12435A
+                        border: 2px solid #ffffff
+                        border-right: 1px solid #ffffff
+                        border-left: 1px solid #ffffff
+                    
+
+                        span
+                            position: absolute
+                            width: 150px
+                            height: 150px
+                            border-radius: 50%
+                            background-color: #5B798B
+                            border: 1px solid #ffffff
+                            grid-area: 1/1/2/2
+                            z-index: 4
+
+                        img
+                            max-width: 120px
+                            z-index: 5
+
+                        h2
+                            +arial
+                            +bold
+                            font-size: 18px
+                            text-align: center
+                            align-self: start
+                            color: #ffffff
+                            max-width: 135px
+                    
+                    .advantage__content:first-child
+                        border-left: 2px solid #ffffff
+                    
+                    .advantage__content:last-child
+                        border-right: 2px solid #ffffff
+
+                            
+
+                        
+
+        
 
         
 
@@ -243,6 +319,8 @@ main
 
 
 footer
+    grid-row-start: 4
+    grid-row-end: 5
     width: 100%
     height: 170px
     padding: 10px 0 10px 0
