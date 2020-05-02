@@ -183,85 +183,7 @@ nav {
         display: block; }
 
 main {
-  background-image: url(../image/bgmain.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
-  main .info__pkth {
-    background-color: rgba(15, 111, 163, 0.6);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 780px; }
-    main .info__pkth .main__about__us {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 120px 660px; }
-      main .info__pkth .main__about__us .about__us__title {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 50% 50%; }
-        main .info__pkth .main__about__us .about__us__title h1 {
-          font-family: 'Arial', sans-serif;
-          font-weight: 700;
-          font-size: 24px;
-          color: #ffffff;
-          align-self: center;
-          text-align: center; }
-      main .info__pkth .main__about__us .about__us__advantage {
-        display: grid;
-        grid-template-rows: 270px 390px;
-        background-color: rgba(13, 98, 143, 0.8); }
-        main .info__pkth .main__about__us .about__us__advantage .advantage__text {
-          align-self: center;
-          justify-self: center;
-          max-width: 80%; }
-          main .info__pkth .main__about__us .about__us__advantage .advantage__text p {
-            font-family: 'Arial', sans-serif;
-            font-weight: 400;
-            font-size: 17px;
-            color: #ffffff;
-            text-align: center;
-            line-height: 19px; }
-        main .info__pkth .main__about__us .about__us__advantage .advantages {
-          display: grid;
-          grid-template-columns: repeat(6, 185px);
-          grid-template-rows: 75%;
-          justify-content: center; }
-          main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content {
-            display: grid;
-            grid-template-rows: 185px 90px;
-            grid-row-gap: 20px;
-            justify-items: center;
-            align-items: center;
-            position: relative;
-            background-color: #12435A;
-            border: 2px solid #ffffff;
-            border-right: 1px solid #ffffff;
-            border-left: 1px solid #ffffff; }
-            main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content span {
-              position: absolute;
-              width: 150px;
-              height: 150px;
-              border-radius: 50%;
-              background-color: #5B798B;
-              border: 1px solid #ffffff;
-              grid-area: 1/1/2/2;
-              z-index: 4; }
-            main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content img {
-              max-width: 120px;
-              z-index: 5; }
-            main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content h2 {
-              font-family: 'Arial', sans-serif;
-              font-weight: 700;
-              font-size: 18px;
-              text-align: center;
-              align-self: start;
-              color: #ffffff;
-              max-width: 135px; }
-          main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content:first-child {
-            border-left: 2px solid #ffffff; }
-          main .info__pkth .main__about__us .about__us__advantage .advantages .advantage__content:last-child {
-            border-right: 2px solid #ffffff; }
+  height: 100vh; }
 
 footer {
   grid-row-start: 4;
@@ -338,4 +260,4 @@ footer {
           text-align: right;
           align-self: center; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=total.css.map */
