@@ -182,6 +182,9 @@ nav {
       nav .topmenu li:hover .sub__menu:hover {
         display: block; }
 
+main {
+  min-height: 100vh; }
+
 footer {
   grid-row-start: 4;
   grid-row-end: 5;
