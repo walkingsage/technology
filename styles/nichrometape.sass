@@ -5,26 +5,22 @@ main
     background-size: cover
 
 
-    .heaters
+    .nichtometape
         background-color: rgba(255, 255, 255, 0.2) 
         background-size: cover
-        width: 100%  
-        margin-bottom: 50px
+        width: 100% 
+        padding-bottom: 50px 
 
-        .heaters__content
+        .nichtometape__content
             display: grid
-            grid-template-rows: 122px 615px  2px 615px 2px 
+            grid-template-rows: auto
+            grid-row-gap: 50px 
             grid-template-columns: 100%
             align-items: center
             justify-items: center
             background-color: #ffffff
 
-            span
-                width: 100%
-                height: 2px
-                background-color: #424242
-
-            .heaters__title
+            .nichtometape__title
                 display: grid
                 grid-template-rows: 120px 2px
                 width: 100%
@@ -43,19 +39,12 @@ main
                     height: 2px
                     background-color: #424242
             
-            .heaters__type
+            .nichtometape__type
                 display: grid
-                grid-template-rows: 160px 330px 130px
+                grid-template-rows: 330px 130px
+                grid-row-gap: 80px
                 align-items: center
                 justify-items: center
-
-                h2
-                    +arial
-                    +regular
-                    font-size: 34px
-                    color: #000000
-                    text-align: center
-                    text-transform: uppercase
 
                 .type__content
                     display: grid
@@ -76,19 +65,40 @@ main
                         img
                             max-width: 90%
                             width: 100%
+                            max-height: 100%
                             justify-self: center
                             align-self: center
 
                     .type__about
                         height: 100%
                         display: grid
-                        justify-items: center
                         align-items: center
+                        justify-items: center
                         border: 4px solid #213A54
+                        +arial
+                        +regular
+                        font-size: 18px
 
-                        ul
+                        .text
                             max-width: 90%
-                    
+                            max-height: 90%
+                            display: grid
+                            grid-row-gap: 80px
+
+                            span
+                                +bold
+
+                            p
+                                width: 100%
+                                text-align: center
+                                align-self: start
+                            
+                            ul
+                                align-self: left
+
+                                p
+                                    text-align: left
+
                 .tohtml
                     display: grid
                     width: 340px/1170px*100%
@@ -107,3 +117,4 @@ main
                 .tohtml:hover
                     cursor: pointer
                     background-color: #0f77af
+                    

@@ -152,20 +152,23 @@ nav
             grid-template-columns: auto
             grid-template-rows: 100%
             text-align: center
-            align-self: center
+            align-items: center
             position: relative
             border-left: 1px solid #ffffff
 
 
             a
-                display: block
-                align-self: center
+                display: grid
                 text-decoration: none
                 outline: none
                 color: #ffffff
                 +arial
                 +regular
                 font-size: 12px
+                height: 100%
+
+                p
+                    align-self: center
             
             .sub__menu
                 position: absolute
