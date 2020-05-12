@@ -1,0 +1,215 @@
+main {
+  background-image: url(../image/bgmain.jpg);
+  background-size: cover; }
+  main .milling {
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px; }
+    main .milling .milling__content {
+      display: grid;
+      grid-template-rows: auto;
+      grid-row-gap: 50px;
+      grid-template-columns: 100%;
+      align-items: center;
+      justify-items: center;
+      background-color: #ffffff; }
+      main .milling .milling__content .milling__title {
+        display: grid;
+        grid-template-rows: 120px 2px;
+        width: 100%; }
+        main .milling .milling__content .milling__title h1 {
+          font-family: 'Arial', sans-serif;
+          font-weight: 700;
+          text-align: center;
+          align-self: center;
+          font-size: 34px;
+          color: #000000;
+          text-transform: uppercase; }
+        main .milling .milling__content .milling__title span {
+          width: 100%;
+          height: 2px;
+          background-color: #424242; }
+      main .milling .milling__content .milling__type {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-row-gap: 80px;
+        align-items: center;
+        justify-items: center; }
+        main .milling .milling__content .milling__type .type__content {
+          display: grid;
+          grid-template-rows: auto;
+          grid-row-gap: 50px;
+          align-items: center;
+          justify-content: center; }
+          main .milling .milling__content .milling__type .type__content .type__left {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            width: 100%;
+            height: 100%; }
+            main .milling .milling__content .milling__type .type__content .type__left img {
+              max-width: 70%;
+              max-height: 100%;
+              width: 100%;
+              justify-self: center;
+              align-self: center; }
+          main .milling .milling__content .milling__type .type__content .type__about {
+            max-width: 80%;
+            height: 100%;
+            display: grid;
+            grid-row-gap: 10px;
+            justify-self: center;
+            justify-items: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 18px; }
+            main .milling .milling__content .milling__type .type__content .type__about .first__abz {
+              display: grid;
+              grid-row-gap: 10px; }
+            main .milling .milling__content .milling__type .type__content .type__about .second__abz {
+              display: grid;
+              grid-row-gap: 10px; }
+            main .milling .milling__content .milling__type .type__content .type__about .about__title {
+              display: grid;
+              height: 100%;
+              width: 100%;
+              margin-bottom: 20px; }
+              main .milling .milling__content .milling__type .type__content .type__about .about__title h2 {
+                font-family: 'Arial', sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                text-transform: uppercase;
+                text-align: center; }
+              main .milling .milling__content .milling__type .type__content .type__about .about__title span {
+                width: 100%;
+                height: 2px;
+                background-color: #213A54;
+                align-self: end; }
+            main .milling .milling__content .milling__type .type__content .type__about span {
+              font-weight: 700; }
+            main .milling .milling__content .milling__type .type__content .type__about a {
+              text-decoration: none;
+              color: #000000; }
+            main .milling .milling__content .milling__type .type__content .type__about a:hover {
+              cursor: pointer; }
+            main .milling .milling__content .milling__type .type__content .type__about ul {
+              max-width: 90%; }
+      main .milling .milling__content .products {
+        display: grid;
+        grid-template-rows: 52px 400px;
+        grid-row-gap: 50px;
+        margin-bottom: 50px; }
+        main .milling .milling__content .products .products__title {
+          display: grid;
+          grid-template-rows: 50px 2px; }
+          main .milling .milling__content .products .products__title h2 {
+            font-family: 'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            align-self: center; }
+          main .milling .milling__content .products .products__title span {
+            width: 100%;
+            height: 2px;
+            background-color: #213A54; }
+        main .milling .milling__content .products .products__containers {
+          display: grid;
+          grid-template-columns: repeat(3, 25.641025641%);
+          justify-content: center;
+          grid-column-gap: 4.2735042735%; }
+          main .milling .milling__content .products .products__containers .product__container {
+            display: grid;
+            grid-template-columns: 90%;
+            justify-content: center;
+            grid-template-rows: 150px 20px 50px 80px;
+            grid-row-gap: 20px;
+            box-shadow: 0 0 20px 1px #756f6f; }
+            main .milling .milling__content .products .products__containers .product__container img {
+              max-width: 100%;
+              max-height: 100%;
+              justify-self: center; }
+            main .milling .milling__content .products .products__containers .product__container .product__name {
+              font-family: 'Arial', sans-serif;
+              font-weight: 700;
+              font-size: 16px;
+              text-align: center;
+              color: #577083; }
+            main .milling .milling__content .products .products__containers .product__container .about {
+              font-family: 'Arial', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #577083;
+              text-align: center; }
+            main .milling .milling__content .products .products__containers .product__container .price {
+              display: grid;
+              grid-template-columns: 25% 25% 50%;
+              grid-template-rows: 50% 50%;
+              text-align: left;
+              align-items: center; }
+              main .milling .milling__content .products .products__containers .product__container .price .price__title {
+                grid-area: 1/1/2/2;
+                font-family: 'Arial', sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: #577083; }
+              main .milling .milling__content .products .products__containers .product__container .price .kolvo__title {
+                grid-area: 1/2/2/3;
+                font-family: 'Arial', sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: #577083; }
+              main .milling .milling__content .products .products__containers .product__container .price .cost {
+                grid-area: 2/1/3/2;
+                font-family: 'Arial', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                color: #36B5CD; }
+              main .milling .milling__content .products .products__containers .product__container .price input {
+                grid-area: 2/2/3/3;
+                font-family: 'Arial', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                color: #36B5CD;
+                border: none; }
+              main .milling .milling__content .products .products__containers .product__container .price input:hover {
+                cursor: pointer; }
+              main .milling .milling__content .products .products__containers .product__container .price a {
+                grid-area: 1/3/3/4;
+                display: grid;
+                width: 100%;
+                height: 50px;
+                background-color: #1294db;
+                text-decoration: none; }
+                main .milling .milling__content .products .products__containers .product__container .price a p {
+                  font-family: 'Arial', sans-serif;
+                  font-weight: 400;
+                  color: #ffffff;
+                  text-align: center;
+                  align-self: center;
+                  font-size: 20px; }
+              main .milling .milling__content .products .products__containers .product__container .price a:hover {
+                cursor: pointer;
+                background-color: #0f77af; }
+      main .milling .milling__content .tohtml {
+        display: grid;
+        width: 29.0598290598%;
+        height: 50px;
+        background-color: #1294db;
+        text-decoration: none;
+        margin-bottom: 50px; }
+        main .milling .milling__content .tohtml p {
+          font-family: 'Arial', sans-serif;
+          font-weight: 400;
+          color: #ffffff;
+          text-align: center;
+          align-self: center;
+          font-size: 20px; }
+      main .milling .milling__content .tohtml:hover {
+        cursor: pointer;
+        background-color: #0f77af; }
+
+/*# sourceMappingURL=milling.css.map */
