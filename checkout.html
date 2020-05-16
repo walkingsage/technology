@@ -68,7 +68,124 @@
         </ul>   
     </nav>
     <main>
-        
+        <div class="milling">
+            <div class="container">
+                <div class="milling__content">
+                    <div class="milling__title">
+                        <h1>Оформление заказа</h1>
+                        <span></span>
+                    </div>
+                    <div class="container__type">
+                        <div class="photo__tovara">
+                            <img src="image/phototovara.PNG" alt="Фото товара">
+                        </div>
+                        <div class="forma__zakaza">
+                            <form action="send.php" method="POST">
+                                <fieldset>
+                                    <legend>Форма заказа</legend>
+                                    <label><p>Тип заказа</p>
+                                        <select id="typezakaza" name="typezakaza">
+                                            <option value="selecttype" selected>Выберите тип заказа</option>
+                                            <option value="usluga">Услуга</option>
+                                            <option value="tovar">Товар</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labeltovar"><p>Товар</p>
+                                        <select id="typetovara" name="typetovara">
+                                            <option value="selecttype" selected>Выберите товар</option>
+                                            <option value="heaters">Нагреватель</option>
+                                            <option value="nichtometape">Нихромовая лента</option>
+                                            <option value="glass">Стакан</option>
+                                            <option value="dubel">Дюбель-хомут</option>
+                                            <option value="cap">Крышка</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labelkolvo"><p>Товар</p>
+                                        <input type="number" step="1" value="1">
+                                    </label>
+                                    <label style="display: none;" class="labeltovar"><p>Услуга</p>
+                                        <select id="typetovara" name="typetovara">
+                                            <option value="selecttype" selected>Выберите услугу</option>
+                                            <option value="heaters"></option>
+                                            <option value="nichtometape">Нихромовая лента</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labelheaters"><p>Тип нагревателя</p>
+                                        <select id="typeheaters" name="typeheaters">
+                                            <option value="selecttype" selected>Выберите тип нагревателя</option>
+                                            <option value="ringheaters">Кольцевой</option>
+                                            <option value="tovar">Плоский</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labelring"><p>Размер</p>
+                                        <select id="ringrazmer" name="ringrazmer">
+                                            <option value="selectrazmer" selected>Диаметр*ширина,mm</option>
+                                            <option value="first">30*30</option>
+                                            <option value="second">40*40</option>
+                                            <option value="three">50*50</option>
+                                            <option value="four">50*60</option>
+                                            <option value="five">60*60</option>
+                                            <option value="six">70*70</option>
+                                            <option value="seven">80*80</option>
+                                            <option value="eight">90*50</option>
+                                            <option value="nine">90*80</option>
+                                            <option value="ten">100*80</option>
+                                            <option value="eleven">120*70</option>
+                                            <option value="twelve">120*80</option>
+                                            <option value="threeten">120*100</option>
+                                            <option value="fourten">120*120</option>
+                                            <option value="fiveten">130*50</option>
+                                            <option value="sixten">130*100</option>
+                                            <option value="other">Другой</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labelflat"><p>Размер</p>
+                                        <select id="flatrazmer" name="flatrazmer">
+                                            <option value="selectrazmer" selected>Длина*ширина,mm</option>
+                                            <option value="first">100*30</option>
+                                            <option value="second">120*40</option>
+                                            <option value="three">150*50</option>
+                                            <option value="four">180*60</option>
+                                            <option value="five">220*70</option>
+                                            <option value="six">250*80</option>
+                                            <option value="seven">280*50</option>
+                                            <option value="eight">320*80</option>
+                                            <option value="nine">380*80</option>
+                                            <option value="ten">380*120</option>
+                                            <option value="eleven">400*50</option>
+                                            <option value="twelve">400*100</option>
+                                            <option value="other">Другой</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="labelnichromtape"><p>Сечение</p>
+                                        <select id="nichtometaperazmer" name="nichtometaperazmer">
+                                            <option value="selectrazmer" selected>Длина*ширина,mm</option>
+                                            <option value="first">100*30</option>
+                                            <option value="second">120*40</option>
+                                            <option value="three">150*50</option>
+                                            <option value="four">180*60</option>
+                                            <option value="five">220*70</option>
+                                            <option value="six">250*80</option>
+                                            <option value="seven">280*50</option>
+                                            <option value="eight">320*80</option>
+                                            <option value="nine">380*80</option>
+                                            <option value="ten">380*120</option>
+                                            <option value="eleven">400*50</option>
+                                            <option value="twelve">400*100</option>
+                                            <option value="other">Другой</option>
+                                        </select>
+                                    </label>
+                                    <label style="display: none;" class="other">
+                                        <input type="text" id="otherrazmer" name="otherrazmer" placeholder="Введите другой размер">
+                                    </label>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container">
