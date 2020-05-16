@@ -1,0 +1,93 @@
+@import fonts
+
+main
+    background-image: url(../image/bgmain.jpg)
+    background-size: cover
+
+
+
+    .milling
+        background-color: rgba(255, 255, 255, 0.2) 
+        background-size: cover
+        width: 100% 
+        padding-bottom: 50px
+
+        .milling__content
+            display: grid
+            grid-template-rows: auto
+            grid-row-gap: 30px 
+            grid-template-columns: 100%
+            align-items: center
+            background-color: #ffffff
+            padding-bottom: 30px
+
+            .milling__title
+                display: grid
+                grid-template-rows: 120px 2px
+                width: 100%
+
+                h1
+                    +arial
+                    +bold
+                    text-align: center
+                    align-self: center
+                    font-size: 34px
+                    color: #000000
+                    text-transform: uppercase
+                
+                span
+                    width: 100%
+                    height: 2px
+                    background-color: #424242
+            
+            .contact__info
+                width: 90%
+                justify-self: center
+                display: grid
+                grid-template-columns: 50% 50%
+                grid-template-rows: 120px 80px 50px 
+                grid-row-gap: 20px
+                text-align: center
+            
+                h2
+                    +arial
+                    +bold
+                    font-size: 20px
+                
+                p, a
+                    +arial
+                    +regular
+                    font-size: 18px
+                    color: #2F2E2E
+                    text-decoration: none
+                
+                a:hover
+                    cursor: pointer
+                
+                .adress
+                    grid-area: 1/1/2/2
+                    display: grid
+                    grid-template-rows: 20px 40px 40px
+                    grid-row-gap: 10px
+
+                .number
+                    grid-area: 2/1/3/2
+                    display: grid
+                    grid-template-rows: 20px 20px 20px
+                    grid-row-gap: 10px
+                
+                .email
+                    grid-area: 3/1/4/2
+                    display: grid
+                    grid-template-rows: 20px 20px
+                    grid-row-gap: 10px
+
+                .reqizite
+                    grid-area: 1/2/2/3
+                    display: grid
+                    grid-template-rows: 20px 20px 20px 20px
+                    grid-row-gap: 10px
+                    text-align: center
+
+                
+            
