@@ -25,6 +25,8 @@ function showElem(elem){
     elem.style.display = 'grid';
 }
 
+
+
 typeZakaza.addEventListener('change',function(){
     if (typeZakaza.value == 'tovar'){
         showElem(labelTovar);
