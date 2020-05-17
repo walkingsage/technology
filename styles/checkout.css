@@ -1,0 +1,102 @@
+main {
+  background-image: url(../image/bgmain.jpg);
+  background-size: cover; }
+  main .type {
+    background-color: rgba(255, 255, 255, 0.425);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px; }
+    main .type .type__content {
+      display: grid;
+      grid-template-rows: auto;
+      grid-row-gap: 50px;
+      grid-template-columns: 100%;
+      align-items: center;
+      justify-items: center;
+      background-color: #ffffff; }
+      main .type .type__content .type__title {
+        display: grid;
+        grid-template-rows: 120px 2px;
+        width: 100%; }
+        main .type .type__content .type__title h1 {
+          font-family: 'Arial', sans-serif;
+          font-weight: 700;
+          text-align: center;
+          align-self: center;
+          font-size: 34px;
+          color: #000000;
+          text-transform: uppercase; }
+        main .type .type__content .type__title span {
+          width: 100%;
+          height: 2px;
+          background-color: #424242; }
+      main .type .type__content .container__type {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto; }
+        main .type .type__content .container__type .info__zakaza {
+          display: grid;
+          max-width: 50%;
+          max-height: 299.5px;
+          justify-self: center;
+          border: 1px solid #b3aeae; }
+          main .type .type__content .container__type .info__zakaza .phototovara {
+            max-width: 100%;
+            align-self: center; }
+        main .type .type__content .container__type form {
+          justify-self: center;
+          margin-bottom: 50px; }
+          main .type .type__content .container__type form fieldset {
+            border: none; }
+            main .type .type__content .container__type form fieldset .form__container {
+              display: grid;
+              grid-template-columns: 100%; }
+              main .type .type__content .container__type form fieldset .form__container .form__elems {
+                display: grid;
+                width: 60%;
+                grid-template-rows: repeat(6, 75px);
+                grid-row-gap: 30px;
+                justify-self: center; }
+                main .type .type__content .container__type form fieldset .form__container .form__elems label {
+                  display: grid;
+                  grid-template-rows: 25px 50px;
+                  grid-template-columns: 100%; }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label p {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: black; }
+                    main .type .type__content .container__type form fieldset .form__container .form__elems label p span {
+                      color: rgba(247, 36, 36, 0.767); }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label select {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    background-color: #ebebeb;
+                    border: 1px solid #ebebeb; }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label input {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    border: 1px solid #ebebeb; }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label textarea {
+                    max-width: 360px;
+                    max-height: 100%; }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label .kolvo {
+                    text-align: center; }
+                  main .type .type__content .container__type form fieldset .form__container .form__elems label .fileis {
+                    border: none;
+                    align-self: center; }
+                main .type .type__content .container__type form fieldset .form__container .form__elems .button {
+                  background-color: #1294db;
+                  border: none;
+                  height: 50px;
+                  font-family: 'Arial', sans-serif;
+                  font-weight: 400;
+                  color: #ffffff; }
+                main .type .type__content .container__type form fieldset .form__container .form__elems .button:hover {
+                  cursor: pointer;
+                  background-color: #0f77af; }
+
+/*# sourceMappingURL=checkout.css.map */
