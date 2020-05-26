@@ -60,45 +60,44 @@ header
         .header__contact__info
             display: grid
             grid-template-columns: auto
-            grid-template-rows: 55px 55px 20px
+            grid-template-rows: 50px 50px 30px
+            align-self: center
 
-            .header__contact__phone__first
+            .header__contact__phone
                 display: grid
-                grid-template-columns: 30px/360px*100% 300px/360px*100% 30px/360px*100%
-                grid-template-rows: auto
+                grid-template-columns: 360px/360px*100% 
+                grid-template-rows: 30px 15px
 
-                a
+                .phone
                     text-decoration: none   
                     text-align: center
                     align-self: center
                     color: #000000
-                    font-size: 25px
+                    font-size: 21px
                     +arial
                     +bold
-
-                img
-                    max-width: 30px
-                    justify-self: center
-            
-            .header__contact__phone__second
-                display: grid
-                grid-template-columns: 30px/360px*100% 300px/360px*100% 30px/360px*100%
-                grid-template-rows: auto
-
-                a
-                    text-decoration: none   
+                
+                p
                     text-align: center
                     align-self: center
-                    color: #000000
-                    font-size: 25px
                     +arial
-                    +bold
-
-                img
-                    max-width: 30px
-                    justify-self: center
-
+                    +regular
+                    
+                    a:first-child
+                        text-decoration: none
+                        color: #00813A
+                        font-size: 15px
+                        +arial
+                        +bold
+                    a:last-child
+                        text-decoration: none
+                        color: #7A3BAA
+                        font-size: 15px
+                        +arial
+                        +bold
+                    
             .dostavka
+                align-self: center
                 text-align: center
                 font-size: 20px
                 color: #0F6FA3
@@ -107,6 +106,7 @@ header
                 a
                     text-decoration: none
                     color: #0F6FA3
+
         .header__aboutus
             display: grid
             grid-template-columns: auto
@@ -116,14 +116,14 @@ header
                 +arial
                 +bold
                 font-size: 20px
-                align-self: end
+                align-self: center
                 text-align: right
             .header__city
                 +arial
                 +bold
                 font-size: 20px 
                 color: #2F2E2E
-                align-self: end
+                align-self: center
                 text-align: right
                 
             a

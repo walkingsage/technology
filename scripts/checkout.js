@@ -34,6 +34,7 @@ typeZakaza.addEventListener('change',function(){
     }
     else if (typeZakaza.value == 'usluga'){
         showElem(labelUsluga);
+        photoTovara.setAttribute('src','../image/phototovara.png');
         hideElem(labelTovar);     
         hideElem(labelKolvo);
         hideElem(labelNichromtape);
