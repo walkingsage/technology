@@ -106,6 +106,7 @@ main {
             main .milling .milling__content .milling__type .type__content .type__about ul {
               max-width: 90%; }
       main .milling .milling__content .products {
+        width: 100%;
         display: grid;
         grid-template-rows: 52px 400px;
         grid-row-gap: 50px;
@@ -126,7 +127,7 @@ main {
             background-color: #213A54; }
         main .milling .milling__content .products .products__containers {
           display: grid;
-          grid-template-columns: repeat(2, 42.735042735%);
+          grid-template-columns: repeat(2, 45%);
           justify-content: center;
           grid-column-gap: 4.2735042735%; }
           main .milling .milling__content .products .products__containers .product__container {

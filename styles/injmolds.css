@@ -44,7 +44,7 @@ main {
           background-color: #424242; }
         main .milling .milling__content .milling__type .type__content {
           display: grid;
-          grid-template-rows: 400px;
+          grid-template-rows: auto;
           grid-row-gap: 50px;
           align-items: center;
           justify-content: center; }
