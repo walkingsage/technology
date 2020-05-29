@@ -48,6 +48,25 @@ main {
           grid-row-gap: 50px;
           align-items: center;
           justify-content: center; }
+          main .milling .milling__content .milling__type .type__content .tohtmlmil {
+            display: grid;
+            width: 29.0598290598%;
+            height: 50px;
+            background-color: #1294db;
+            text-decoration: none;
+            justify-self: center;
+            align-self: center;
+            margin-bottom: 0px; }
+            main .milling .milling__content .milling__type .type__content .tohtmlmil p {
+              font-family: 'Arial', sans-serif;
+              font-weight: 400;
+              color: #ffffff;
+              text-align: center;
+              align-self: center;
+              font-size: 20px; }
+          main .milling .milling__content .milling__type .type__content .tohtmlmil:hover {
+            cursor: pointer;
+            background-color: #0f77af; }
           main .milling .milling__content .milling__type .type__content .type__left {
             display: grid;
             justify-items: center;
@@ -65,7 +84,7 @@ main {
             max-width: 100%;
             height: 100%;
             display: grid;
-            grid-row-gap: 10px;
+            grid-row-gap: 30px;
             justify-self: center;
             justify-items: center;
             align-items: center;

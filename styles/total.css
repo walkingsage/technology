@@ -185,10 +185,8 @@ nav {
       nav .topmenu li:hover .sub__menu:hover {
         display: block; }
 
-main {
-  min-height: 100vh; }
-  main ul {
-    margin-left: 20px; }
+main ul {
+  margin-left: 20px; }
 
 footer {
   grid-row-start: 4;

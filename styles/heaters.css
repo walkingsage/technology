@@ -5,7 +5,7 @@ main {
     background-color: rgba(255, 255, 255, 0.2);
     background-size: cover;
     width: 100%;
-    margin-bottom: 50px; }
+    padding-bottom: 50px; }
     main .heaters .heaters__content {
       display: grid;
       grid-template-rows: 122px 615px 2px 615px 2px;
