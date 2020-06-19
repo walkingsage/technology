@@ -7,7 +7,7 @@ main {
   background-size: cover;
   background-attachment: fixed; }
   main .info__pkth {
-    background-color: rgba(15, 111, 163, 0.6);
+    background-color: rgba(15, 111, 163, 0.4);
     width: 100%; }
     main .info__pkth .main__about__us {
       display: grid;

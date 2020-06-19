@@ -124,7 +124,7 @@ nav {
   z-index: 100; }
   nav .topmenu {
     display: grid;
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(8, auto);
     grid-template-rows: 50px;
     list-style: none; }
     nav .topmenu li {

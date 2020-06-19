@@ -8,7 +8,7 @@ main {
     margin-bottom: 50px; }
     main .heaters .heaters__content {
       display: grid;
-      grid-template-rows: 122px 615px 2px 615px 2px;
+      grid-template-rows: auto 615px 2px 615px 2px;
       grid-template-columns: 100%;
       align-items: center;
       justify-items: center;
@@ -19,7 +19,7 @@ main {
         background-color: #424242; }
       main .heaters .heaters__content .heaters__title {
         display: grid;
-        grid-template-rows: 120px 2px;
+        grid-template-rows: 120px auto 2px;
         width: 100%; }
         main .heaters .heaters__content .heaters__title h1 {
           font-family: 'Arial', sans-serif;
@@ -29,6 +29,26 @@ main {
           font-size: 34px;
           color: #000000;
           text-transform: uppercase; }
+        main .heaters .heaters__content .heaters__title .about {
+          display: grid;
+          grid-row-gap: 5px;
+          margin-bottom: 40px; }
+          main .heaters .heaters__content .heaters__title .about p {
+            font-family: 'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center; }
+            main .heaters .heaters__content .heaters__title .about p span {
+              font-weight: 700;
+              background-color: #ffffff; }
+          main .heaters .heaters__content .heaters__title .about ul {
+            display: grid;
+            grid-row-gap: 5px;
+            font-family: 'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 18px; }
+            main .heaters .heaters__content .heaters__title .about ul li {
+              justify-self: center; }
         main .heaters .heaters__content .heaters__title span {
           width: 100%;
           height: 2px;
@@ -86,3 +106,5 @@ main {
         main .heaters .heaters__content .heaters__type .tohtml:hover {
           cursor: pointer;
           background-color: #0f77af; }
+
+/*# sourceMappingURL=heaters.css.map */
