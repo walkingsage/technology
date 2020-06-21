@@ -93,7 +93,9 @@ main {
             font-size: 18px; }
             main .milling .milling__content .milling__type .type__content .type__about .first__abz {
               display: grid;
-              grid-row-gap: 10px; }
+              grid-row-gap: 10px;
+              max-width: 80%;
+              text-align: center; }
               main .milling .milling__content .milling__type .type__content .type__about .first__abz .bottom {
                 text-align: center;
                 align-self: end;

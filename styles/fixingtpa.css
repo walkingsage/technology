@@ -1,0 +1,91 @@
+main {
+  background-image: url(../image/bgmain.jpg);
+  background-size: cover; }
+  main .milling {
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px; }
+    main .milling .milling__content {
+      display: grid;
+      grid-template-rows: 122px auto;
+      grid-template-columns: 100%;
+      grid-row-gap: 50px;
+      justify-items: center;
+      background-color: #ffffff;
+      min-height: 100vh;
+      padding-bottom: 50px; }
+      main .milling .milling__content .milling__title {
+        display: grid;
+        grid-template-rows: 120px 2px;
+        width: 100%; }
+        main .milling .milling__content .milling__title h1 {
+          font-family: 'Arial', sans-serif;
+          font-weight: 700;
+          text-align: center;
+          align-self: center;
+          font-size: 34px;
+          color: #000000;
+          text-transform: uppercase; }
+        main .milling .milling__content .milling__title span {
+          width: 100%;
+          height: 2px;
+          background-color: #424242; }
+      main .milling .milling__content .about__fixing {
+        display: grid;
+        grid-template-rows: repeat(3, 300px);
+        grid-row-gap: 30px; }
+        main .milling .milling__content .about__fixing .container {
+          display: grid;
+          max-width: 90%;
+          grid-template-rows: 300px;
+          grid-template-columns: 40% 60%;
+          grid-row-gap: 20px;
+          padding: 20px 0 20px 0;
+          box-shadow: 0 0 20px 1px #756f6f; }
+          main .milling .milling__content .about__fixing .container img {
+            width: 40%;
+            max-height: 100%;
+            justify-self: center;
+            box-shadow: 20px 20px #000000; }
+          main .milling .milling__content .about__fixing .container .right {
+            display: grid;
+            grid-template-rows: 20px auto; }
+            main .milling .milling__content .about__fixing .container .right h2 {
+              font-family: 'Arial', sans-serif;
+              font-weight: 700;
+              font-size: 20px;
+              text-align: center; }
+            main .milling .milling__content .about__fixing .container .right .about__pkth {
+              max-width: 80%;
+              justify-self: center;
+              display: grid;
+              grid-row-gap: 10px; }
+              main .milling .milling__content .about__fixing .container .right .about__pkth p {
+                font-family: 'Arial', sans-serif;
+                font-weight: 400;
+                color: #000000;
+                text-align: center;
+                align-self: center;
+                font-size: 20px; }
+                main .milling .milling__content .about__fixing .container .right .about__pkth p span {
+                  font-weight: 700; }
+      main .milling .milling__content .tohtml {
+        display: grid;
+        width: 29.0598290598%;
+        height: 50px;
+        background-color: #1294db;
+        text-decoration: none;
+        justify-self: center; }
+        main .milling .milling__content .tohtml p {
+          font-family: 'Arial', sans-serif;
+          font-weight: 400;
+          color: #ffffff;
+          text-align: center;
+          align-self: center;
+          font-size: 20px; }
+      main .milling .milling__content .tohtml:hover {
+        cursor: pointer;
+        background-color: #0f77af; }
+
+/*# sourceMappingURL=fixingtpa.css.map */

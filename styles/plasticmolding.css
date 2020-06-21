@@ -145,7 +145,7 @@ main {
               text-align: center; }
             main .plasticmolding .plasticmolding__content .products .products__containers .product__container .price {
               display: grid;
-              grid-template-columns: 25% 25% 50%;
+              grid-template-columns: 50% 50%;
               grid-template-rows: 50% 50%;
               text-align: left;
               align-items: center;
@@ -155,19 +155,22 @@ main {
                 font-family: 'Arial', sans-serif;
                 font-weight: 700;
                 font-size: 15px;
-                color: #577083; }
+                color: #577083;
+                text-align: center; }
               main .plasticmolding .plasticmolding__content .products .products__containers .product__container .price .kolvo__title {
                 grid-area: 1/2/2/3;
                 font-family: 'Arial', sans-serif;
                 font-weight: 700;
                 font-size: 15px;
-                color: #577083; }
+                color: #577083;
+                text-align: center; }
               main .plasticmolding .plasticmolding__content .products .products__containers .product__container .price .cost {
                 grid-area: 2/1/3/2;
                 font-family: 'Arial', sans-serif;
                 font-weight: 700;
                 font-size: 18px;
-                color: #36B5CD; }
+                color: #36B5CD;
+                text-align: center; }
               main .plasticmolding .plasticmolding__content .products .products__containers .product__container .price input {
                 grid-area: 2/2/3/3;
                 font-family: 'Arial', sans-serif;

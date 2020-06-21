@@ -62,7 +62,7 @@ main {
             main .milling .milling__content .milling__type .type__content .type__left .molds {
               max-width: 50%; }
           main .milling .milling__content .milling__type .type__content .type__about {
-            max-width: 100%;
+            max-width: 80%;
             height: 100%;
             display: grid;
             grid-row-gap: 10px;
